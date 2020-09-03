@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background: black;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1,
+h2,
+h3 {
+  font-family: "Spartan", sans-serif;
+}
+
+.heading {
+  font-weight: 900;
+  font-size: 4rem;
+  max-width: 800px;
+  letter-spacing: 2px;
+}
+.bg-purple {
+  color: #9966ff;
+}
+.btn {
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 1.8rem;
+  padding: 0.5em 0.9em;
+  border-radius: 5rem;
+  margin: 3rem 0;
+  cursor: pointer;
+}
